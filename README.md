@@ -28,6 +28,18 @@ Une application moderne de crud d'utilisateurs avec un backend .NET/PostgreSQL e
 - PostgreSQL
 - API REST
 
+## Configuration de la connexion à PostgreSQL
+
+Host=posgres : le serveur PostgreSQL (ici en local)
+
+Port=5432 : port d’écoute de PostgreSQL (port par défaut)
+
+Database=MaDb : nom de la base de données à utiliser ou créer
+
+Username=postgres : nom de l’utilisateur PostgreSQL
+
+Password=password : mot de passe de l’utilisateur
+
 ## Prérequis
 
 - Node.js 18+
@@ -43,15 +55,3 @@ Une application moderne de crud d'utilisateurs avec un backend .NET/PostgreSQL e
 git clone <URL_DU_DEPOT>
 cd frontend
 npm install
-
-## Configuration de la connexion à PostgreSQL
-
-Host=posgres : le serveur PostgreSQL (ici en local)
-
-Port=5432 : port d’écoute de PostgreSQL (port par défaut)
-
-Database=MaDb : nom de la base de données à utiliser ou créer
-
-Username=postgres : nom de l’utilisateur PostgreSQL
-
-Password=password : mot de passe de l’utilisateur
